@@ -8,7 +8,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/portfolio/",
+    path: "/Portfolio/",
     element: <App />,
   },
 ]);
