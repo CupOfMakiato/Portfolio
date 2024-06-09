@@ -1,0 +1,22 @@
+
+.portfolio {
+    background: linear-gradient(45deg, rgb(6, 12, 114), rgb(246, 145, 89));
+
+}
+.social-links a {
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+/* .profile-image-container {
+    display: inline-block;
+    padding: 10px; 
+    border: 4px dashed gray;
+    border-radius: 50%;
+}
+
+.profile-image {
+    display: block;
+} */
