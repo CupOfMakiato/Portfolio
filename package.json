@@ -1,6 +1,6 @@
 {
-  "homepage": "https://cupofmakiato.github.io/Portfolio/",
   "name": "vite-project",
+  "homepage": "https://cupofmakiato.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

@@ -10,9 +10,6 @@ const router = createBrowserRouter([
   {
     path: "/vite-project/",
     element: <App />,
-    children: [
-
-    ],
   },
 ]);
 

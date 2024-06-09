@@ -1,5 +1,6 @@
 import React from 'react';
 import Portfolio from './Portfolio/Portfolio';
+import { Link, Outlet } from "react-router-dom";
 import './App.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // bootstrap icons
 const App: React.FC = () => {
