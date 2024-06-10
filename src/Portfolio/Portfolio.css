@@ -1,12 +1,55 @@
-
 .portfolio {
     background: linear-gradient(45deg, rgb(6, 12, 114), rgb(246, 145, 89));
-
 }
+
 .social-links a {
     transition: transform 0.3s ease;
 }
 
 .social-links a:hover {
     transform: scale(1.1);
+}
+
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-border {
+    border-width: 5px; /* Adjust the value to your desired thickness */
+    border-color: rgb(255, 240, 111);
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 4px; /* Adjusted position to move it closer */
+    left: 50%;
+    transform: translateX(30%) translateY(70%); /* Move the tooltip slightly closer */
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;  /* Ensure the text does not wrap */
+}
+
+.profile-image-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.profile-image-container:hover .tooltip-delayed {
+    animation: fadeIn 0.5s 1s forwards;  /* Delay the appearance by 1 second */
+}
+
+@keyframes fadeIn {
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
 }
