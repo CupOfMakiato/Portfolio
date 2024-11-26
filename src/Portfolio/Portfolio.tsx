@@ -7,7 +7,7 @@ const Portfolio: React.FC = () => {
             <div className="profile-image-container mb-4 mx-auto w-32 rounded-full">
                 <div className="tooltip-delayed tooltip">Art by me!</div>
                 <img 
-                    src="./public/PFP.jpg" 
+                    src="https://trello.com/1/cards/6734c45dbf1ead63e152287d/attachments/6734c45eb69242987ba4809f/previews/6734c460b69242987ba480ac/download/image.webp" 
                     alt="Profile" 
                     className="w-32 rounded-full border-opacity-20 custom-border"
                 />
