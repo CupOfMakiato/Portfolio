@@ -7,7 +7,7 @@ const Portfolio: React.FC = () => {
             <div className="profile-image-container mb-4 mx-auto w-32 rounded-full">
                 <div className="tooltip-delayed tooltip">Art by me!</div>
                 <img 
-                    src="https://makiato03.carrd.co/assets/images/image01.jpg?v=eb2ea4e5" 
+                    src="https://media.discordapp.net/attachments/1134023658495545381/1350115514021576774/IMG_3521.jpg?ex=67d5908e&is=67d43f0e&hm=7f29eecc9b07cd21f4b3fcc2ceeae760db2d252b0958535ba32e5644007280d8&=&format=webp&width=930&height=930" 
                     alt="Profile" 
                     className="w-32 rounded-full border-opacity-20 custom-border"
                 />
